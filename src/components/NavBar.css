@@ -1,0 +1,32 @@
+.navbar {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CartImage {
+    width: 2rem;
+}
+
+.shopcartArea {
+    display: flex;
+}
+
+.notificationCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: red;
+    height: 2rem;
+    width: 2rem;
+}
+
+.notiNumber {
+    margin-top: 1rem;
+    color: white;
+}
