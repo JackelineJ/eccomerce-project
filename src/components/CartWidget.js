@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './CartWidget.css';
+
 const cart = require('../assets/cart.png');
 
 const CartWidget = () => {
