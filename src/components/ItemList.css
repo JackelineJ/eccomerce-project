@@ -1,0 +1,10 @@
+.Container {
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+h1 {
+    color: black;
+}
