@@ -1,9 +1,8 @@
 import React from 'react'
 
+import CartWidget from './CartWidget';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './NavBar.css';
-
-const cart = require('../assets/cart.png');
 
 const NavBar = () => {
     return (
@@ -38,14 +37,7 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <div className='shopcartArea'>
-                        <a className="nav-link" href="#">
-                            <img className='CartImage' src={cart} alt='shopping cart image'/>
-                        </a>
-                        <div className='notificationCart rounded-circle'>
-                            <p className='notiNumber'>1</p>
-                        </div>
-                    </div>
+                    <CartWidget />
                 </li>
             </ul>
         </div>
