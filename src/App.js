@@ -1,6 +1,8 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import ItemList from './components/ItemList';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar/NavBar';
+import ItemList from './components/ItemList/ItemList';
+//import Button from 'react-bootstrap/Button';
 
 
 function App() {
