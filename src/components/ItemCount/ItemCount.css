@@ -1,0 +1,21 @@
+button {
+    background-color: red;
+    color: white;
+    border-radius: 0.5rem;
+    border-color: red;
+}
+
+span {
+    color: black;
+}
+
+.Counter {
+    display: flex;
+    justify-content: space-between;
+    border: gray solid 1px;
+    border-radius: 1rem;
+}
+
+.counterElement {
+    margin: 1rem;
+}
