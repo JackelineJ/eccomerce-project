@@ -1,21 +1,26 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import ItemListContainer from './pages/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './pages/ItemDetailContainer/ItemDetailContainer';
+import Error from './pages/Error/Error';
+import AboutUs from './pages/AboutUs/AboutUs';
+
 import NavBar from './components/NavBar/NavBar';
-import ItemList from './components/ItemList/ItemList';
 //import Button from 'react-bootstrap/Button';
 
 
 function App() {
-  const greetingComponent = 'Hello!';
-  const pageLogo = 'queenlogo.png';
   return (
-    <div>
-      <header className="App-header">
-      <img className='queenLogo' src={pageLogo} alt='queen logo'/>
+    <BrowserRouter>
         <NavBar />
-        <ItemList greeting={greetingComponent}/>
-      </header>
-    </div>
+        <Routes>
+          <Route path='*' element={<Error />} />
+          <Route path='/' element={<ItemListContainer />} />
+          <Route path='/products' element={<ItemDetailContainer />} />
+          <Route path='/aboutUs' element={<AboutUs />} />
+        </Routes>
+    </BrowserRouter>
   );
 }
 
