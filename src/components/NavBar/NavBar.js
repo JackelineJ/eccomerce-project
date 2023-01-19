@@ -13,11 +13,11 @@ function NavBar() {
     return (
         <Navbar bg="light" variant="light">
             <Container>
-                <Navbar.Brand href="#">Queen</Navbar.Brand>
+                <Navbar.Brand href="/">Queen</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link>Studio Albums</Nav.Link>
-                    <Nav.Link>Live Albums</Nav.Link>
-                    <Nav.Link>About Us</Nav.Link>
+                    <NavLink to="/products">Studio Albums</NavLink>
+                    <NavLink to="">Live Albums</NavLink>
+                    <NavLink to="/aboutUs">About Us</NavLink>
                 </Nav>
             </Container>
             <Nav.Link href="#cart">
