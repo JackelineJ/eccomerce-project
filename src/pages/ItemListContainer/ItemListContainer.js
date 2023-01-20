@@ -1,15 +1,14 @@
-import React from 'react'
-import ItemList from '../../components/ItemList/ItemList'
+import React from 'react';
+import Item from '../../components/Item/Item';
+import ItemList from '../../components/ItemList/ItemList';
+import './ItemListContainer.css';
 
 const Home = () => {
     const greetingComponent = 'Hello!';
-    const pageLogo = 'queenlogo.png';
     return (
-        <div>
-        <header className="App-header">
-            <img className='queenLogo' src={pageLogo} alt='queen logo'/>
+        <div className='listContainer'>
             <ItemList greeting={greetingComponent}/>
-        </header>
+            <Item />
         </div>
     )
 }
