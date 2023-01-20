@@ -1,5 +1,6 @@
 .Container {
-    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 1rem;
     margin: 1rem;
