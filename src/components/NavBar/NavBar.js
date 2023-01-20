@@ -13,16 +13,14 @@ function NavBar() {
     return (
         <Navbar bg="light" variant="light">
             <Container>
-                <Navbar.Brand href="/">Queen</Navbar.Brand>
+                <Navbar.Brand href="/"><img className='queenLogo' src='/queenlogo.png' alt='queen logo'/></Navbar.Brand>
                 <Nav className="me-auto">
                     <NavLink to="/products">Studio Albums</NavLink>
                     <NavLink to="">Live Albums</NavLink>
                     <NavLink to="/aboutUs">About Us</NavLink>
                 </Nav>
             </Container>
-            <Nav.Link href="#cart">
-                <CartWidget />
-            </Nav.Link>
+            <CartWidget />
         </Navbar>
     );
 }
