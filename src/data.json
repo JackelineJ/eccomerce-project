@@ -1,0 +1,30 @@
+[
+    {
+        "price": 28,
+        "id": 1,
+        "title": "Innuendo",
+        "description": "",
+        "thumbnailURL": "images/queeninnuendo.jpg"
+    },
+    {
+        "price": 30,
+        "id": 2,
+        "title": "The Works",
+        "description": "",
+        "thumbnailURL": "images/queentheworks.jpg"
+    },
+    {
+        "price": 54,
+        "id": 3,
+        "title": "Live at Wembley '86",
+        "description": "",
+        "thumbnailURL": "images/queenliveatwembley.jpg"
+    },
+    {
+        "price": 20,
+        "id": 4,
+        "title": "Queen on Fire - Live at the Bowl",
+        "description": "",
+        "thumbnailURL": "images/queenliveatbowl.jpg"
+    }
+]
